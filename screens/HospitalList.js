@@ -25,7 +25,7 @@ const HospitalList = ({ navigation }) => {
       onPress={() => navigation.navigate("HospitalDetail", { hospital: item })}
     >
       <Image
-        source={{ uri: "https://via.placeholder.com/60" }} // Placeholder gambar
+        source={{ uri: "https://via.placeholder.com/60" }}
         style={styles.thumbnail}
       />
       <View style={styles.info}>

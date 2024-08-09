@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, View, Text } from "react-native";
 import * as Font from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import { NavigationContainer } from "@react-navigation/native";
@@ -33,7 +32,7 @@ export default function App() {
   }, []);
 
   if (!fontsLoaded) {
-    return null; // You can also return a loading indicator here
+    return null;
   }
 
   return (
